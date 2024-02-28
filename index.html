@@ -10,8 +10,10 @@
         font-weight: bolder;
       }
       .heading{
-        color: cadetblue;
-        font-style: italic;
+        color: orangered;
+        text-transform: uppercase;
+        text-align: center;
+        background-color: cyan;
       }
     a{
       color: darkred;
@@ -20,11 +22,7 @@
     }
     .home{
       color: coral;
-      font-weight: 200;
-    }
-    #anjali{
-      color: chartreuse;
-      font-weight: 200;
+      background-color: aquamarine;
     }
     .one{
       color: black;
@@ -34,13 +32,24 @@
       color: blue;
       font-weight: bolder;
     }
+    #icon{
+      background-color: rgb(134, 173, 173);
+    }
+
+    #organization{
+      text-transform: uppercase;
+      color: palevioletred;
+    } 
+    #angular{
+      color: blue;
+    }
 
     </style>
 
   </head>
   <body>
     <!--Header Section -->
-    <header>
+    <header id="icon">
         <p id="info"><svg class="one" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-person-circle" viewBox="0 0 16 16">
             <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0"/>
             <path fill-rule="evenodd" d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8m8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1"/>
@@ -70,18 +79,21 @@
     <!--Main Section -->
     <section></section>
     <!-- HOME  Section-->
-    <section id="home">
+    <section id="home"> 
+    <h2 class="heading">Career Objectives</h2>
+    <p id="organization">to work in organization where i can learn and grow my skills and helps organization growth</p>
+       <hr>
       <h2 class="heading"> Professional Summary</h2>
       <ul>
-        <li>Having 1 years of experience in developing Single page Web Applications using Angular 8, HTML5, CSS3, Bootstrap 5, JavaScript, TypeScript </li>
+        <li>Having 1 years of experience in developing Single page Web Applications using <span id="angular">Angular 8</span> , HTML5, CSS3, Bootstrap 5, JavaScript, TypeScript </li>
         <li class="home">Experience on working with version control system - GIT and GitHub </li>
-        <li class="home"> Experience working with JIRA for user stories and bug tracking</li>
+        <li> Experience working with JIRA for user stories and bug tracking</li>
         <li>Strong Debugging & Troubleshooting code experience using Chrome Developer Tool </li>
-        <li class="home">Working exposure on ID's like VS Code and Notepad++ </li>
+        <li>Working exposure on ID's like VS Code and Notepad++ </li>
         <li>Good working experience under Agile methodologies environment </li>
         <li>Experience in using Chrome Developer Tool for debugging and Troubleshooting the code </li>
         <li> Knowledge of NodeJS</li>
-        <li id="anjali">Ability to work with people at all levels in the program</li>
+        <li>Ability to work with people at all levels in the program</li>
       </ul>
     </section>
     <hr>
